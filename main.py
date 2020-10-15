@@ -18,7 +18,7 @@ map_render = pygame.transform.scale(pygame.image.load('res\\map_render.png'), (m
 # map with every invisible line that are used to determine how far a car has gotten
 rewards_texture = pygame.transform.scale(pygame.image.load('res\\rewards.png'), (map_w, map_h))
 
-# euclidean distance between two point... duh
+# euclidean distance between two points... duh
 def get_euc(a, b):
 	return sqrt((a[0]-b[0])**2+(a[1]-b[1])**2)
 
