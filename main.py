@@ -26,7 +26,7 @@ def norm(x):
 	return 1 if x >= 0 else -1
 
 # this function returns the distance to the closest obstacle ahead of the car (only ahead)
-# at first I wanted to do a binary search to approximate the position where the bounds starts
+# at first I wanted to do a binary search to approximate the position where the bound starts
 # but this also works and it's efficient enough either way and it avoids complicacies
 def get_distance(car, acceptable_error, step_size=2):
 	global w, h
